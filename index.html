@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Henry Scotti</title>
+    <meta name="description" content="Esse é um site para criar um portfólio.">
+    <meta name="keywords" content="Aluno, dedicado, estudioso, divertido, rápido, gostoso, css, html">
+    <meta name="author" content="Henry Scotti">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+
+<body>
+    <header>
+        <a href="#" class="logo">Henry Scotti</a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#Habilidades">Habilidades</a>
+            <a href="#Formacao">Formação</a>
+            <a href="#Experiencia">Experiência</a>
+            <a href="#Contato">Contato</a>
+        </nav> 
+    </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="./img/1956C2C1-CBA5-45EE-AC43-906667DB29BD-removebg-preview (2).png" 
+                 alt="Imagem do Lionel Messi">
+        </div>
+        <div class="home-content">
+            <h1>Eu sou o <span>Henry</span></h1>
+            <h3 class="typing-text">Eu sou <span></span></h3> 
+            <p>Sou Henry, tenho 17 anos e cursei Engenharia Civil, conquistando destaque como o melhor da turma. Minha área principal é a construção de prédios e casas. Tenho grande facilidade com matemática e um raciocínio lógico muito desenvolvido, o que me ajuda a buscar soluções rápidas e eficazes. Meu objetivo é me tornar o melhor do mundo na Engenharia Civil.</p>
+            
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/henry-scotti-103359309/"> <i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/h2scotti-cyber/meu-portif-lio"> <i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/henryscotti1"> <i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/henryscotti__/"> <i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <a href="mailto:h2scotti@gmail.com" class="btn">Me contrate</a>
+        </div>
+    </section>
+
+    <section id="servicos" class="blocos">
+        <h3>Serviços</h3>
+        <p>Serviços
+
+Construção de alto padrão – Projetos residenciais e comerciais com foco em qualidade, segurança e durabilidade.
+
+Planejamento de obras – Organização e gerenciamento de projetos para garantir eficiência e cumprimento de prazos.
+
+Consultoria em engenharia civil – Desenvolvimento de soluções inovadoras e eficazes para diferentes tipos de obras.
+
+Projetos sustentáveis – Concepção de construções que unem tecnologia, economia e responsabilidade ambiental.</p>
+    </section>
+      <section id="Habilidades"class="blocos">
+        <h3>Habilidades</h3>
+        <p>
+
+Raciocínio lógico aplicado à engenharia.
+
+Domínio em matemática e cálculos estruturais.
+
+Planejamento estratégico de obras complexas.
+
+Liderança de equipes e gestão de grandes projetos.
+
+Inovação em soluções arquitetônicas e estruturais.
+
+Comprometimento com resultados de excelência.</p>
+    </section>  <section id="Formacao"class="blocos">
+        <h3>Formação</h3>
+        <p>Bacharelado em Engenharia Civil – Universidade Presbiteriana Mackenzie
+
+Melhor aluno da turma, formado com destaque acadêmico.
+
+Participação em cursos e workshops de inovação tecnológica na construção civil.
+
+Dedicação contínua à atualização profissional e aprimoramento de competências técnicas.</p>
+    </section>  <section id="Experiencia"class="blocos">
+        <h3>Experiencia</h3>
+        <p>Atuação em estágios e projetos práticos em grandes construtoras, com foco no planejamento e execução de obras.
+
+Desenvolvimento e acompanhamento de projetos residenciais e comerciais de alto padrão.
+
+Experiência com ferramentas de modelagem e softwares de engenharia voltados à otimização de tempo e recursos.
+
+Trajetória inspirada pelo exemplo de meu pai, engenheiro civil, que me transmitiu a paixão pela profissão e pela excelência em cada projeto.</p>
+    </section>  <section id="Contato"class="blocos">
+        <h3>Contato</h3>
+        <form action="https://formsubmit.co/christiano.npaiva@senacsp.edu.br" method="POST"">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required name="nome">
+            <br><br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu E-mail" required name="email">
+            <br><br>
+            <label for="">Telefone: </label>
+            <input type="telefone" id="telefone" placeholder="Digite seu Telefone" >
+            <br><br>
+            <h3>Mensagem</h3>
+            <textarea style="resize: none;" rows="20" cols="100" name="Mensagem" placeholder="Digite aqui " required></textarea>
+            <input type="submit" value="Confirmar">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html#">
+        </form>
+    </section>
+</body>
+</html>
